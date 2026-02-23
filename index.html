@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mesquite Manufacturing — Website Designs</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #0f1a12; color: #e0ebe3; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; }
+    h1 { font-size: 2rem; font-weight: 800; color: #00ff6a; margin-bottom: 8px; text-align: center; }
+    .sub { color: #7a9980; font-size: 0.95rem; margin-bottom: 60px; text-align: center; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 960px; width: 100%; }
+    .card { background: #161d18; border: 1px solid #2a3a2e; border-radius: 16px; padding: 32px 28px; text-decoration: none; color: inherit; transition: all 0.3s; position: relative; overflow: hidden; }
+    .card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+    .card.c1::before { background: #25a554; }
+    .card.c2::before { background: #00ff6a; box-shadow: 0 0 20px rgba(0,255,106,0.5); }
+    .card.c3::before { background: #4a9e66; }
+    .card:hover { border-color: #00ff6a; transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,255,106,0.1); }
+    .card-num { font-size: 3rem; font-weight: 800; opacity: 0.1; line-height: 1; margin-bottom: 16px; }
+    .card.c1 .card-num { color: #25a554; }
+    .card.c2 .card-num { color: #00ff6a; }
+    .card.c3 .card-num { color: #4a9e66; }
+    .card-tag { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+    .card.c1 .card-tag { color: #25a554; }
+    .card.c2 .card-tag { color: #00ff6a; }
+    .card.c3 .card-tag { color: #4a9e66; }
+    .card h2 { font-size: 1.2rem; font-weight: 700; color: #fff; margin-bottom: 10px; }
+    .card p { font-size: 0.85rem; color: #7a9980; line-height: 1.7; margin-bottom: 20px; }
+    .card-link { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.5px; }
+    .card.c1 .card-link { color: #25a554; }
+    .card.c2 .card-link { color: #00ff6a; }
+    .card.c3 .card-link { color: #4a9e66; }
+  </style>
+</head>
+<body>
+  <h1>Mesquite Manufacturing</h1>
+  <p class="sub">3 unique website concepts — pick your favorite</p>
+  <div class="cards">
+    <a href="site1-corporate.html" class="card c1">
+      <div class="card-num">01</div>
+      <div class="card-tag">Corporate Pro</div>
+      <h2>Clean & Professional</h2>
+      <p>White/green corporate layout. Minimal, modern, and trustworthy. Built for Fortune 500 clients and industrial procurement teams.</p>
+      <div class="card-link">View Site →</div>
+    </a>
+    <a href="site2-dark-forge.html" class="card c2">
+      <div class="card-num">02</div>
+      <div class="card-tag">Dark Forge</div>
+      <h2>Bold Industrial Dark</h2>
+      <p>Dark background with neon green accents, grid overlays, and an edgy industrial feel. Capability-first, no-fluff design.</p>
+      <div class="card-link">View Site →</div>
+    </a>
+    <a href="site3-eco-tech.html" class="card c3">
+      <div class="card-num">03</div>
+      <div class="card-tag">Eco-Tech</div>
+      <h2>Sustainable & Natural</h2>
+      <p>Organic, nature-inspired design with serif typography. Targets eco-conscious clients and ESG-focused procurement teams.</p>
+      <div class="card-link">View Site →</div>
+    </a>
+  </div>
+</body>
+</html>
