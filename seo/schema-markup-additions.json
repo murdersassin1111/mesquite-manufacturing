@@ -1,0 +1,313 @@
+{
+  "_instructions": "Add each block as a separate <script type='application/ld+json'> tag in the <head> of the relevant page. Update placeholder values (marked with PLACEHOLDER) before deploying.",
+
+  "1_localBusiness_enhanced": {
+    "_page": "Homepage",
+    "_description": "Enhanced LocalBusiness / ManufacturingBusiness schema with geo, areaServed, priceRange",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": ["ManufacturingBusiness", "LocalBusiness"],
+      "name": "Mesquite Manufacturing",
+      "url": "https://mesquitemanufacturing.com",
+      "logo": "https://mesquitemanufacturing.com/wp-content/uploads/PLACEHOLDER-logo.png",
+      "image": "https://mesquitemanufacturing.com/wp-content/uploads/PLACEHOLDER-shop-photo.jpg",
+      "description": "Precision CNC machining and milling company in Mesquite, TX. Fourth axis CNC, ±0.001\" tolerances, prototype development, custom assembly, and 3D printing. Available 24/7.",
+      "telephone": "PLACEHOLDER-PHONE",
+      "email": "PLACEHOLDER-EMAIL",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "PLACEHOLDER-STREET",
+        "addressLocality": "Mesquite",
+        "addressRegion": "TX",
+        "postalCode": "PLACEHOLDER-ZIP",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "PLACEHOLDER-LAT",
+        "longitude": "PLACEHOLDER-LNG"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Cash, Credit Card, Invoice, Wire Transfer",
+      "areaServed": [
+        {"@type": "City", "name": "Mesquite", "sameAs": "https://en.wikipedia.org/wiki/Mesquite,_Texas"},
+        {"@type": "City", "name": "Dallas"},
+        {"@type": "City", "name": "Fort Worth"},
+        {"@type": "City", "name": "Garland"},
+        {"@type": "City", "name": "Plano"},
+        {"@type": "City", "name": "Irving"},
+        {"@type": "City", "name": "Arlington"},
+        {"@type": "City", "name": "Grand Prairie"},
+        {"@type": "State", "name": "Texas", "sameAs": "https://en.wikipedia.org/wiki/Texas"},
+        {"@type": "Country", "name": "United States"}
+      ],
+      "sameAs": [
+        "PLACEHOLDER-LINKEDIN-URL",
+        "PLACEHOLDER-FACEBOOK-URL",
+        "PLACEHOLDER-YELP-URL"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "CNC Manufacturing Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Precision CNC Machining & Milling",
+              "url": "https://mesquitemanufacturing.com/services/cnc-machining",
+              "description": "4th axis CNC machining to ±0.001\" tolerances. Metals, plastics, and composites."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Prototype Development",
+              "url": "https://mesquitemanufacturing.com/services/prototype-development",
+              "description": "Rapid prototyping with iterative design feedback. Fast turnaround from concept to finished part."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custom Assembly",
+              "url": "https://mesquitemanufacturing.com/services/custom-assembly",
+              "description": "Precision mechanical and electromechanical assembly services with rigorous quality testing."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D Printing & Additive Manufacturing",
+              "url": "https://mesquitemanufacturing.com/services/3d-printing",
+              "description": "Industrial-grade 3D printing services. Tolerances to ±0.001\". SLA, FDM, and more."
+            }
+          }
+        ]
+      }
+    }
+  },
+
+  "2_faq_schema": {
+    "_page": "Homepage (or dedicated FAQ page)",
+    "_description": "FAQPage schema — helps capture FAQ rich results in Google",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What CNC machining services does Mesquite Manufacturing offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesquite Manufacturing offers precision CNC machining and milling, prototype development, custom assembly, and 3D printing services. We use fourth axis CNC technology and hold tolerances to ±0.001\"."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Mesquite Manufacturing located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We are located in Mesquite, TX — in the Dallas–Fort Worth metroplex. We serve clients throughout Texas and nationally, with 24/7 availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tolerances can Mesquite Manufacturing hold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our CNC machining capabilities include tolerances to ±0.001\" to ±0.005\" depending on material, geometry, and complexity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What materials do you machine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We machine a wide range of materials including aluminum alloys (6061, 7075), stainless steel, carbon steel, titanium, brass, and engineering plastics such as Delrin, PEEK, and nylon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get a quote for CNC machining?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can submit a Request for Quote (RFQ) directly on our website. Upload your CAD files, specify your material and tolerance requirements, and we'll respond within 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 4th axis CNC machining?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "4th axis CNC machining adds rotational movement to a standard 3-axis CNC machine. This allows us to machine complex geometries in fewer setups, reducing cost and improving accuracy for intricate parts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer rush or expedited machining services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mesquite Manufacturing operates 24/7 and can accommodate rush orders. Contact us directly to discuss expedited timelines and availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide prototype development services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer rapid CNC prototyping services with iterative design feedback. Our team helps you go from concept to production-ready part efficiently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What industries do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve aerospace, defense, oil & gas, automotive, medical device, electronics, and industrial equipment industries, among others."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What file formats do you accept for CNC machining quotes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We accept STEP (.stp), IGES (.igs), DXF, DWG, and PDF drawings. STEP files are preferred for 3D geometry. Contact us if you need assistance with file formats."
+          }
+        }
+      ]
+    }
+  },
+
+  "3_service_schema_cnc": {
+    "_page": "/services/cnc-machining",
+    "_description": "Service schema for CNC Machining page",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Precision CNC Machining & Milling",
+      "provider": {
+        "@type": "ManufacturingBusiness",
+        "name": "Mesquite Manufacturing",
+        "url": "https://mesquitemanufacturing.com"
+      },
+      "serviceType": "CNC Machining",
+      "description": "4th axis CNC machining and precision milling to ±0.001\" tolerances. Aluminum, steel, titanium, and plastics. High-volume production at competitive pricing. Mesquite, TX.",
+      "areaServed": {
+        "@type": "State",
+        "name": "Texas"
+      },
+      "url": "https://mesquitemanufacturing.com/services/cnc-machining"
+    }
+  },
+
+  "4_service_schema_prototyping": {
+    "_page": "/services/prototype-development",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Rapid Prototype Development",
+      "provider": {
+        "@type": "ManufacturingBusiness",
+        "name": "Mesquite Manufacturing",
+        "url": "https://mesquitemanufacturing.com"
+      },
+      "serviceType": "Prototype Development",
+      "description": "Rapid CNC prototyping with iterative design feedback. From concept to production-ready part. Cost-effective early-stage prototypes in Mesquite, TX.",
+      "areaServed": {"@type": "State", "name": "Texas"},
+      "url": "https://mesquitemanufacturing.com/services/prototype-development"
+    }
+  },
+
+  "5_service_schema_assembly": {
+    "_page": "/services/custom-assembly",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Custom Assembly Services",
+      "provider": {
+        "@type": "ManufacturingBusiness",
+        "name": "Mesquite Manufacturing",
+        "url": "https://mesquitemanufacturing.com"
+      },
+      "serviceType": "Custom Assembly",
+      "description": "Precision mechanical and electromechanical custom assembly services. Rigorous testing, tailored solutions. Mesquite, TX.",
+      "areaServed": {"@type": "State", "name": "Texas"},
+      "url": "https://mesquitemanufacturing.com/services/custom-assembly"
+    }
+  },
+
+  "6_service_schema_3dprinting": {
+    "_page": "/services/3d-printing",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "3D Printing & Additive Manufacturing",
+      "provider": {
+        "@type": "ManufacturingBusiness",
+        "name": "Mesquite Manufacturing",
+        "url": "https://mesquitemanufacturing.com"
+      },
+      "serviceType": "3D Printing",
+      "description": "Industrial 3D printing services with tolerances to ±0.001\". SLA, FDM, and advanced additive manufacturing. Mesquite, TX.",
+      "areaServed": {"@type": "State", "name": "Texas"},
+      "url": "https://mesquitemanufacturing.com/services/3d-printing"
+    }
+  },
+
+  "7_breadcrumb_schema": {
+    "_page": "All interior pages",
+    "_description": "BreadcrumbList — example for a service page",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mesquitemanufacturing.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://mesquitemanufacturing.com/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CNC Machining",
+          "item": "https://mesquitemanufacturing.com/services/cnc-machining"
+        }
+      ]
+    }
+  },
+
+  "8_aggregate_rating_placeholder": {
+    "_page": "Homepage",
+    "_note": "Only add this once you have verified reviews. Do NOT fabricate ratings. Update from GBP/Yelp reviews.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "ManufacturingBusiness",
+      "name": "Mesquite Manufacturing",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "PLACEHOLDER-AVG-RATING",
+        "reviewCount": "PLACEHOLDER-COUNT",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+  }
+}
