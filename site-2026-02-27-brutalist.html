@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mesquite Manufacturing | CNC Machining & Milling | Mesquite, TX</title>
+  <meta name="description" content="Mesquite Manufacturing — #1 CNC machining and CNC milling in Mesquite, TX. 4th axis CNC, ±0.001″ tolerances, metals, plastics, composites. 24/7 service. Get a free quote now." />
+  <meta name="keywords" content="mesquite manufacturing, CNC machining Texas, CNC milling Texas, precision machining, 4th axis CNC, prototype development, custom assembly, 3D printing Texas, CNC machining Mesquite TX, CNC milling Mesquite" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.mesquitemanufacturing.com/" />
+  <!-- OG -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mesquite Manufacturing | CNC Machining & Milling | Mesquite, TX" />
+  <meta property="og:description" content="#1 CNC machining in Mesquite, TX. 4th axis CNC, ±0.001″ tolerances, 24/7 service. Get a free RFQ." />
+  <meta property="og:url" content="https://www.mesquitemanufacturing.com/" />
+  <meta property="og:site_name" content="Mesquite Manufacturing" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mesquite Manufacturing | CNC Machining & Milling" />
+  <meta name="twitter:description" content="#1 CNC machining in Mesquite, TX. 4th axis CNC, ±0.001″ tolerances, 24/7. Free quote." />
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ManufacturingBusiness",
+    "name": "Mesquite Manufacturing",
+    "url": "https://www.mesquitemanufacturing.com",
+    "description": "#1 Innovative CNC Machining service in the United States. Specializing in CNC Machining, CNC Milling, Precision Manufacturing with 4th axis technology.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mesquite",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "CNC Manufacturing Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Precision CNC Machining", "description": "4th axis CNC machining with ±0.001″–0.005″ tolerances. Metals, plastics, composites."}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Prototype Development", "description": "Rapid prototyping for quick validation and refinement of designs."}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Custom Assembly", "description": "Seamless component integration with rigorous testing and quality assurance."}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3D Printing", "description": "Additive manufacturing with ±0.001″–0.005″ tolerances. Plastics, composites, metals."}}
+      ]
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* =============================================
+       BRUTALIST THEME — Mesquite Manufacturing
+       Thick borders · stark contrast · loud type
+       Green primary · unconventional grids
+    ============================================= */
+    :root {
+      --green: #1a8a2e;
+      --green-dark: #0f5a1e;
+      --green-bright: #22c43a;
+      --green-neon: #39ff66;
+      --black: #0a0a0a;
+      --off-black: #111111;
+      --white: #f5f5f0;
+      --off-white: #ede8df;
+      --yellow: #f5e642;
+      --border: 3px solid var(--black);
+      --border-thick: 5px solid var(--black);
+      --border-green: 3px solid var(--green);
+      --radius: 0px;
+      --font-display: 'Bebas Neue', sans-serif;
+      --font-body: 'Space Grotesk', sans-serif;
+      --font-mono: 'IBM Plex Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--off-white);
+      color: var(--black);
+      overflow-x: hidden;
+    }
+
+    /* ---- KEYFRAMES ---- */
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    @keyframes blink-border {
+      0%, 100% { border-color: var(--green); }
+      50% { border-color: var(--black); }
+    }
+    @keyframes slide-in-left {
+      from { transform: translateX(-60px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes stamp {
+      from { transform: scale(1.3) rotate(-8deg); opacity: 0; }
+      to { transform: scale(1) rotate(-8deg); opacity: 1; }
+    }
+
+    /* ---- NAV ---- */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--black);
+      border-bottom: 4px solid var(--green);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 64px;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: var(--white);
+      letter-spacing: 2px;
+    }
+    .nav-logo span { color: var(--green-neon); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--off-white);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--green-neon); }
+    .nav-cta {
+      background: var(--green);
+      color: var(--white) !important;
+      padding: 0.5rem 1.25rem;
+      border: 2px solid var(--green-neon);
+      font-weight: 700 !important;
+      transition: background 0.2s, transform 0.1s !important;
+    }
+    .nav-cta:hover { background: var(--green-bright) !important; transform: translate(-2px, -2px); }
+
+    /* ---- TICKER ---- */
+    .ticker {
+      background: var(--green);
+      border-bottom: 3px solid var(--black);
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 0.55rem 0;
+    }
+    .ticker-inner {
+      display: inline-flex;
+      animation: marquee 18s linear infinite;
+    }
+    .ticker-item {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 0 2.5rem;
+    }
+    .ticker-dot {
+      color: var(--yellow);
+      margin: 0 0.5rem;
+    }
+
+    /* ---- HERO ---- */
+    .hero {
+      background: var(--black);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 88vh;
+      border-bottom: 5px solid var(--green);
+    }
+    .hero-left {
+      padding: 4rem 3rem 4rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 4px solid var(--green);
+      animation: slide-in-left 0.7s ease both;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--green-neon);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 1rem;
+    }
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(4rem, 7vw, 7rem);
+      line-height: 0.93;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: -1px;
+      margin-bottom: 1.2rem;
+    }
+    .hero-h1 .highlight {
+      display: block;
+      color: var(--green-neon);
+      -webkit-text-stroke: 2px var(--green-neon);
+    }
+    .hero-h1 .hollow {
+      display: block;
+      color: transparent;
+      -webkit-text-stroke: 2px var(--white);
+    }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: #b0b0a0;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      max-width: 480px;
+    }
+    .hero-sub strong { color: var(--green-neon); }
+    .hero-btns {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .btn-primary {
+      background: var(--green);
+      color: var(--white);
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1rem 2rem;
+      border: 3px solid var(--green-neon);
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .btn-primary:hover {
+      background: var(--green-bright);
+      transform: translate(-3px, -3px);
+      box-shadow: 4px 4px 0 var(--green-neon);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--white);
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1rem 2rem;
+      border: 3px solid var(--white);
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    .btn-secondary:hover {
+      border-color: var(--green-neon);
+      color: var(--green-neon);
+      transform: translate(-3px, -3px);
+      box-shadow: 4px 4px 0 var(--white);
+    }
+    .trust-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .trust-badge {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--green-neon);
+      border: 1.5px solid var(--green);
+      padding: 0.3rem 0.7rem;
+    }
+
+    /* HERO RIGHT — Quick Form */
+    .hero-right {
+      background: var(--off-white);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 3rem;
+      position: relative;
+    }
+    .form-stamp {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      background: var(--green);
+      color: var(--white);
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      letter-spacing: 2px;
+      padding: 0.6rem 1rem;
+      border: 3px solid var(--black);
+      transform: rotate(-8deg);
+      animation: stamp 0.6s ease 0.3s both;
+    }
+    .quick-form-title {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+      color: var(--black);
+      margin-bottom: 0.3rem;
+      line-height: 1;
+    }
+    .quick-form-sub {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--green-dark);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 1.8rem;
+    }
+    .brutalist-form { display: flex; flex-direction: column; gap: 0; }
+    .form-field {
+      position: relative;
+      border: 3px solid var(--black);
+      border-bottom: none;
+      background: var(--white);
+    }
+    .form-field:last-of-type { border-bottom: 3px solid var(--black); }
+    .form-field label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--green-dark);
+      padding: 0.5rem 1rem 0;
+      font-weight: 700;
+    }
+    .form-field input,
+    .form-field textarea {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      color: var(--black);
+      padding: 0.3rem 1rem 0.7rem;
+    }
+    .form-field textarea { resize: vertical; min-height: 90px; }
+    .form-field:focus-within {
+      border-color: var(--green);
+      animation: blink-border 0.8s ease 1;
+    }
+    .form-submit-btn {
+      margin-top: 0;
+      background: var(--green);
+      color: var(--white);
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      border: 3px solid var(--black);
+      padding: 1rem 2rem;
+      width: 100%;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.15s;
+      margin-top: 0.6rem;
+    }
+    .form-submit-btn:hover {
+      background: var(--green-dark);
+      transform: translate(-3px, -3px);
+      box-shadow: 4px 4px 0 var(--black);
+    }
+    .form-guarantee {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: #666;
+      text-align: center;
+      margin-top: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+
+    /* ---- TRUST BADGES ROW ---- */
+    .trust-row {
+      background: var(--yellow);
+      border-bottom: 4px solid var(--black);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+    }
+    .trust-item {
+      flex: 1 1 200px;
+      text-align: center;
+      padding: 1.6rem 1rem;
+      border-right: 3px solid var(--black);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 700;
+      color: var(--black);
+    }
+    .trust-item:last-child { border-right: none; }
+    .trust-item .trust-icon { font-size: 1.4rem; display: block; margin-bottom: 0.3rem; }
+
+    /* ---- SECTION HEADERS ---- */
+    .section-header {
+      padding: 3rem 4rem 1.5rem;
+      border-bottom: 3px solid var(--black);
+    }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--green-dark);
+      margin-bottom: 0.5rem;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      line-height: 0.95;
+      color: var(--black);
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+    }
+    .section-title .accent { color: var(--green); }
+
+    /* ---- SERVICES ---- */
+    #services { background: var(--black); }
+    #services .section-header { border-color: var(--green); }
+    #services .section-label { color: var(--green-neon); }
+    #services .section-title { color: var(--white); }
+    #services .section-title .accent { color: var(--green-neon); }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .service-card {
+      padding: 3rem;
+      border-right: 3px solid var(--green);
+      border-bottom: 3px solid var(--green);
+      position: relative;
+      overflow: hidden;
+      transition: background 0.2s;
+    }
+    .service-card:nth-child(even) { border-right: none; }
+    .service-card:nth-child(3),
+    .service-card:nth-child(4) { border-bottom: none; }
+    .service-card:hover { background: #1a1a1a; }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 6px;
+      height: 100%;
+      background: var(--green);
+    }
+    .service-num {
+      font-family: var(--font-display);
+      font-size: 5rem;
+      line-height: 1;
+      color: #1e1e1e;
+      position: absolute;
+      top: 1rem; right: 1.5rem;
+      letter-spacing: -2px;
+    }
+    .service-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .service-name {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.75rem;
+      line-height: 1;
+    }
+    .service-desc {
+      font-size: 0.9rem;
+      color: #999;
+      line-height: 1.65;
+      margin-bottom: 1rem;
+    }
+    .service-spec {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--green-neon);
+      border: 1px solid var(--green);
+      padding: 0.3rem 0.75rem;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1.25rem;
+    }
+    .service-link {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--green-neon);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid var(--green);
+      padding-bottom: 2px;
+      transition: color 0.15s;
+    }
+    .service-link:hover { color: var(--white); }
+
+    /* ---- PROCESS SECTION ---- */
+    #process {
+      background: var(--green);
+      border-top: 4px solid var(--black);
+      border-bottom: 4px solid var(--black);
+    }
+    #process .section-header { border-color: var(--black); }
+    #process .section-label { color: var(--black); opacity: 0.6; }
+    #process .section-title { color: var(--black); }
+    #process .section-title .accent { color: var(--white); }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .process-step {
+      padding: 2.5rem 2rem;
+      border-right: 3px solid var(--black);
+      position: relative;
+    }
+    .process-step:last-child { border-right: none; }
+    .step-num {
+      font-family: var(--font-display);
+      font-size: 5rem;
+      line-height: 1;
+      color: var(--black);
+      opacity: 0.15;
+      position: absolute;
+      top: 1.5rem; right: 1rem;
+    }
+    .step-circle {
+      width: 50px;
+      height: 50px;
+      background: var(--black);
+      border: 3px solid var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--green-neon);
+      margin-bottom: 1rem;
+    }
+    .step-title {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--black);
+      margin-bottom: 0.5rem;
+    }
+    .step-desc {
+      font-size: 0.85rem;
+      color: var(--black);
+      opacity: 0.75;
+      line-height: 1.6;
+    }
+    .process-cta-row {
+      padding: 2rem 4rem;
+      border-top: 3px solid var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .process-cta-text {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      color: var(--black);
+    }
+    .btn-black {
+      background: var(--black);
+      color: var(--white);
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1rem 2rem;
+      border: 3px solid var(--black);
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.15s;
+    }
+    .btn-black:hover {
+      background: var(--off-black);
+      transform: translate(-3px, -3px);
+      box-shadow: 4px 4px 0 var(--black);
+    }
+
+    /* ---- WHY US ---- */
+    #why { background: var(--off-white); }
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 3px solid var(--black);
+    }
+    .why-card {
+      padding: 2.5rem 2rem;
+      border-right: 3px solid var(--black);
+      position: relative;
+    }
+    .why-card:last-child { border-right: none; }
+    .why-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0;
+      width: 100%; height: 4px;
+      background: var(--green);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+    .why-card:hover::after { transform: scaleX(1); }
+    .why-icon { font-size: 2.2rem; margin-bottom: 1rem; }
+    .why-title {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--black);
+      margin-bottom: 0.6rem;
+      line-height: 1;
+    }
+    .why-desc {
+      font-size: 0.88rem;
+      color: #444;
+      line-height: 1.65;
+    }
+    .why-tag {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--green);
+      margin-top: 1rem;
+      display: block;
+      border-left: 3px solid var(--green);
+      padding-left: 0.5rem;
+    }
+
+    /* ---- TESTIMONIALS ---- */
+    #testimonials {
+      background: var(--off-black);
+      border-top: 4px solid var(--green);
+      border-bottom: 4px solid var(--green);
+    }
+    #testimonials .section-header { border-color: var(--green); }
+    #testimonials .section-label { color: var(--green-neon); }
+    #testimonials .section-title { color: var(--white); }
+    #testimonials .section-title .accent { color: var(--green-neon); }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 3px solid var(--green);
+    }
+    .testi-card {
+      padding: 2.5rem 2.5rem;
+      border-right: 3px solid var(--green);
+      position: relative;
+    }
+    .testi-card:last-child { border-right: none; }
+    .testi-quote {
+      font-family: var(--font-display);
+      font-size: 6rem;
+      line-height: 0.7;
+      color: var(--green);
+      margin-bottom: 1rem;
+    }
+    .testi-text {
+      font-size: 0.95rem;
+      color: #ccc;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+    .testi-author {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--green-neon);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+    .testi-role {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 0.2rem;
+    }
+
+    /* ---- FAQ ---- */
+    #faq { background: var(--white); }
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      border-top: 3px solid var(--black);
+    }
+    .faq-item {
+      padding: 2rem 2.5rem;
+      border-right: 3px solid var(--black);
+      border-bottom: 3px solid var(--black);
+      transition: background 0.2s;
+    }
+    .faq-item:nth-child(even) { border-right: none; }
+    .faq-item:nth-last-child(-n+2) { border-bottom: none; }
+    .faq-item:hover { background: var(--off-white); }
+    .faq-q {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--black);
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+    }
+    .faq-q::before {
+      content: 'Q: ';
+      color: var(--green);
+      font-size: 0.9rem;
+    }
+    .faq-a {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.65;
+    }
+    .faq-a strong { color: var(--black); }
+
+    /* ---- FULL RFQ FORM ---- */
+    #rfq {
+      background: var(--black);
+      border-top: 5px solid var(--green);
+    }
+    #rfq .section-header { border-color: var(--green); }
+    #rfq .section-label { color: var(--green-neon); }
+    #rfq .section-title { color: var(--white); }
+    #rfq .section-title .accent { color: var(--green-neon); }
+
+    .rfq-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .rfq-sidebar {
+      padding: 3rem;
+      border-right: 3px solid var(--green);
+    }
+    .rfq-sidebar-title {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+      line-height: 1;
+    }
+    .rfq-sidebar-title .accent { color: var(--green-neon); }
+    .rfq-sidebar-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .rfq-sidebar-list li {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+    .rfq-sidebar-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--green-neon);
+    }
+    .rfq-sidebar-guarantee {
+      margin-top: 2.5rem;
+      border: 2px solid var(--green);
+      padding: 1.2rem;
+    }
+    .rfq-sidebar-guarantee p {
+      font-family: var(--font-mono);
+      font-size: 0.73rem;
+      color: var(--green-neon);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.6;
+    }
+    .rfq-form-area {
+      padding: 3rem;
+    }
+    .rfq-form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+    .rfq-field {
+      border: 2px solid #333;
+      border-right: none;
+      border-bottom: none;
+      background: #111;
+      transition: border-color 0.2s;
+    }
+    .rfq-field:nth-child(even) { border-right: 2px solid #333; }
+    .rfq-field.full {
+      grid-column: 1 / -1;
+      border-right: 2px solid #333;
+    }
+    .rfq-form-grid .rfq-field:last-of-type,
+    .rfq-field.full { border-bottom: 2px solid #333; }
+    .rfq-field:focus-within { border-color: var(--green); }
+    .rfq-field label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--green-neon);
+      padding: 0.6rem 1rem 0.1rem;
+    }
+    .rfq-field input,
+    .rfq-field select,
+    .rfq-field textarea {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--white);
+      padding: 0.3rem 1rem 0.7rem;
+    }
+    .rfq-field select option { background: var(--black); color: var(--white); }
+    .rfq-field textarea { resize: vertical; min-height: 100px; }
+    .rfq-submit {
+      background: var(--green);
+      color: var(--white);
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      border: 3px solid var(--green-neon);
+      padding: 1.25rem 2rem;
+      width: 100%;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.15s;
+      margin-top: 1rem;
+    }
+    .rfq-submit:hover {
+      background: var(--green-bright);
+      transform: translate(-3px, -3px);
+      box-shadow: 4px 4px 0 var(--green-neon);
+    }
+    .rfq-under-btn {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: #666;
+      text-align: center;
+      margin-top: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+    .rfq-under-btn span { color: var(--green-neon); }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background: var(--black);
+      border-top: 4px solid var(--green);
+    }
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      border-bottom: 3px solid #222;
+    }
+    .footer-col {
+      padding: 3rem 2.5rem;
+      border-right: 2px solid #222;
+    }
+    .footer-col:last-child { border-right: none; }
+    .footer-logo {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--white);
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+    .footer-logo span { color: var(--green-neon); }
+    .footer-about {
+      font-size: 0.85rem;
+      color: #777;
+      line-height: 1.65;
+      margin-bottom: 1.5rem;
+    }
+    .footer-col-title {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      color: var(--green-neon);
+      margin-bottom: 1.2rem;
+    }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-links a {
+      font-size: 0.85rem;
+      color: #888;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: var(--white); }
+    .footer-cta-box {
+      border: 2px solid var(--green);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .footer-cta-title {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--white);
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .footer-cta-sub {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+    }
+    .footer-bottom {
+      padding: 1.25rem 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ---- FLOATING CTA ---- */
+    .floating-cta {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 999;
+      background: var(--green);
+      color: var(--white);
+      font-family: var(--font-display);
+      font-size: 1rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.9rem 1.5rem;
+      border: 3px solid var(--black);
+      box-shadow: 4px 4px 0 var(--black);
+      transition: all 0.15s;
+    }
+    .floating-cta:hover {
+      background: var(--green-bright);
+      transform: translate(-3px, -3px);
+      box-shadow: 7px 7px 0 var(--black);
+    }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 1024px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-left { padding: 3rem 2rem; border-right: none; border-bottom: 4px solid var(--green); }
+      .hero-right { padding: 3rem 2rem; }
+      .services-grid { grid-template-columns: 1fr; }
+      .service-card { border-right: none; }
+      .service-card:nth-child(n) { border-bottom: 3px solid var(--green); }
+      .service-card:last-child { border-bottom: none; }
+      .process-steps { grid-template-columns: 1fr 1fr; }
+      .process-step:nth-child(2) { border-right: none; }
+      .why-grid { grid-template-columns: 1fr 1fr; }
+      .why-card:nth-child(2) { border-right: none; }
+      .why-card:last-child { border-right: none; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .testi-card { border-right: none; border-bottom: 3px solid var(--green); }
+      .testi-card:last-child { border-bottom: none; }
+      .rfq-wrapper { grid-template-columns: 1fr; }
+      .rfq-sidebar { border-right: none; border-bottom: 3px solid var(--green); }
+      .footer-inner { grid-template-columns: 1fr; }
+      .footer-col { border-right: none; }
+    }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .section-header { padding: 2rem 1.5rem 1rem; }
+      .hero-left { padding: 2.5rem 1.5rem; }
+      .hero-right { padding: 2.5rem 1.5rem; }
+      .service-card { padding: 2rem 1.5rem; }
+      .process-steps { grid-template-columns: 1fr; }
+      .process-step { border-right: none; border-bottom: 3px solid var(--black); }
+      .process-step:last-child { border-bottom: none; }
+      .process-cta-row { padding: 1.5rem; }
+      .why-grid { grid-template-columns: 1fr; }
+      .why-card { border-right: none; }
+      .faq-grid { grid-template-columns: 1fr; }
+      .faq-item { border-right: none; }
+      .rfq-form-grid { grid-template-columns: 1fr; }
+      .rfq-field.full, .rfq-field:nth-child(even) { border-right: none; }
+      .rfq-field { border-right: none; }
+      .trust-row { flex-direction: column; }
+      .trust-item { border-right: none; border-bottom: 2px solid var(--black); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- FLOATING CTA -->
+<a href="#rfq" class="floating-cta">📋 Get RFQ</a>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">MESQUITE<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#rfq" class="nav-cta">Get a Quote</a></li>
+  </ul>
+</nav>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span class="ticker-item">±0.001″ Tolerances<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">4th Axis CNC<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">24/7 Service<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">Metals · Plastics · Composites<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">#1 CNC Service in the US<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">Free Quote in 24 Hours<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">Precision Machining · Prototyping · Assembly · 3D Printing<span class="ticker-dot">◆</span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="ticker-item">±0.001″ Tolerances<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">4th Axis CNC<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">24/7 Service<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">Metals · Plastics · Composites<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">#1 CNC Service in the US<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">Free Quote in 24 Hours<span class="ticker-dot">◆</span></span>
+    <span class="ticker-item">Precision Machining · Prototyping · Assembly · 3D Printing<span class="ticker-dot">◆</span></span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">// Mesquite, TX — #1 in the US</div>
+    <h1 class="hero-h1">
+      <span>CNC</span>
+      <span class="highlight">Machining</span>
+      <span class="hollow">& Milling</span>
+    </h1>
+    <p class="hero-sub">
+      <strong>Fourth axis CNC technology</strong> — complex geometries at high volume, below competitor cost.
+      <strong>±0.001″ tolerances</strong> in metals, plastics, and composites.
+      <strong>Available 24/7</strong> to move your project forward.
+    </p>
+    <div class="hero-btns">
+      <a href="#rfq" class="btn-primary">Get a Free Quote</a>
+      <a href="#services" class="btn-secondary">See Our Services</a>
+    </div>
+    <div class="trust-strip">
+      <span class="trust-badge">±0.001″</span>
+      <span class="trust-badge">4th Axis CNC</span>
+      <span class="trust-badge">24/7 Available</span>
+      <span class="trust-badge">Metals · Plastics · Composites</span>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="form-stamp">Free Quote</div>
+    <div class="quick-form-title">Start Your RFQ</div>
+    <div class="quick-form-sub">// Response within 24 hours</div>
+    <form class="brutalist-form" onsubmit="return false;">
+      <div class="form-field">
+        <label>Your Name</label>
+        <input type="text" placeholder="John Smith" />
+      </div>
+      <div class="form-field">
+        <label>Email Address</label>
+        <input type="email" placeholder="john@company.com" />
+      </div>
+      <div class="form-field">
+        <label>Tell Us About Your Project</label>
+        <textarea placeholder="Part description, material, quantity, tolerance, timeline..."></textarea>
+      </div>
+      <button type="submit" class="form-submit-btn">Get My Quote →</button>
+    </form>
+    <p class="form-guarantee">✓ Free  ✓ No obligation  ✓ Response within 24 hours</p>
+  </div>
+</section>
+
+<!-- TRUST BADGES ROW -->
+<div class="trust-row">
+  <div class="trust-item"><span class="trust-icon">🎯</span>4th Axis CNC Technology</div>
+  <div class="trust-item"><span class="trust-icon">📐</span>±0.001″ Precision</div>
+  <div class="trust-item"><span class="trust-icon">⏱️</span>24/7 Service</div>
+  <div class="trust-item"><span class="trust-icon">🔩</span>Metals · Plastics · Composites</div>
+  <div class="trust-item"><span class="trust-icon">🏆</span>#1 CNC in the US</div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-header">
+    <div class="section-label">// What We Build</div>
+    <h2 class="section-title">Our <span class="accent">Services</span></h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-num">01</div>
+      <div class="service-icon">⚙️</div>
+      <div class="service-name">Precision Machining</div>
+      <div class="service-spec">4th Axis CNC · ±0.001″–0.005″</div>
+      <p class="service-desc">
+        High-quality components machined to exceptional precision and accuracy. Our fourth axis CNC technology enables intricate designs and complex geometries at high volume — at lower cost than competitors. We machine metals, plastics, and composites to the tightest tolerances in the industry.
+      </p>
+      <a href="#rfq" class="service-link">Get a Quote for Machining →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">02</div>
+      <div class="service-icon">🔬</div>
+      <div class="service-name">Prototype Development</div>
+      <div class="service-spec">Rapid Iteration · Fast Validation</div>
+      <p class="service-desc">
+        Rapid prototyping that brings your concepts to life quickly. Our iterative feedback process means you validate and refine designs early — identifying issues before production and saving cost. From first sketch to finished prototype, we accelerate your development timeline.
+      </p>
+      <a href="#rfq" class="service-link">Get a Quote for Prototyping →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">03</div>
+      <div class="service-icon">🔧</div>
+      <div class="service-name">Custom Assembly</div>
+      <div class="service-spec">Seamless Integration · Rigorous QC</div>
+      <p class="service-desc">
+        Seamless integration of components with rigorous testing at every stage. We guarantee functionality, durability, and performance on every assembly — with tailored solutions for your specific requirements. More than machined parts — we deliver complete, tested assemblies.
+      </p>
+      <a href="#rfq" class="service-link">Get a Quote for Assembly →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">04</div>
+      <div class="service-icon">🖨️</div>
+      <div class="service-name">3D Printing</div>
+      <div class="service-spec">±0.001″–0.005″ · Metals & Composites</div>
+      <p class="service-desc">
+        Additive manufacturing excellence using traditional plastics, innovative composites, and metals — all achieving ±0.001″–0.005″ tolerances. Ideal for complex geometries, one-offs, and production runs where CNC may be cost-prohibitive. Precision at every layer.
+      </p>
+      <a href="#rfq" class="service-link">Get a Quote for 3D Printing →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-header">
+    <div class="section-label">// No Surprises</div>
+    <h2 class="section-title">How It <span class="accent">Works</span></h2>
+  </div>
+  <div class="process-steps">
+    <div class="process-step">
+      <div class="step-num">01</div>
+      <div class="step-circle">01</div>
+      <div class="step-title">Share Your Project</div>
+      <p class="step-desc">Describe your part, upload your drawing or CAD file, and tell us your material, quantity, and timeline.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-num">02</div>
+      <div class="step-circle">02</div>
+      <div class="step-title">Receive Your Quote</div>
+      <p class="step-desc">We respond within 24 hours with a custom quote — tailored process selection, material recommendations, and pricing.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-num">03</div>
+      <div class="step-circle">03</div>
+      <div class="step-title">We Machine It</div>
+      <p class="step-desc">4th axis CNC precision machining or 3D printing with full quality control. Every part inspected to your tolerance specs.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-num">04</div>
+      <div class="step-circle">04</div>
+      <div class="step-title">Delivered & Supported</div>
+      <p class="step-desc">Parts delivered on time. 24/7 support continues after delivery — we're your long-term manufacturing partner.</p>
+    </div>
+  </div>
+  <div class="process-cta-row">
+    <div class="process-cta-text">Ready to get started?</div>
+    <a href="#rfq" class="btn-black">Get Your Free Quote →</a>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div class="section-header">
+    <div class="section-label">// The Difference</div>
+    <h2 class="section-title">Why Choose <span class="accent">Us</span></h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon">👥</div>
+      <div class="why-title">Expert Team</div>
+      <p class="why-desc">Highly skilled professionals with deep expertise in CNC machining, precision manufacturing, and materials science. Your project is in experienced hands from day one.</p>
+      <span class="why-tag">Deep CNC Expertise</span>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">🎛️</div>
+      <div class="why-title">Customized Approach</div>
+      <p class="why-desc">No off-the-shelf solutions. Every customer gets a tailored manufacturing plan — material selection, process choice, and tolerances matched to your unique requirements.</p>
+      <span class="why-tag">Tailored to Your Needs</span>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">✅</div>
+      <div class="why-title">Quality Assurance</div>
+      <p class="why-desc">Stringent quality standards applied at every stage. We hold ourselves to the highest benchmarks in the industry — every part is inspected before it leaves our facility.</p>
+      <span class="why-tag">Highest Benchmarks</span>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">🔁</div>
+      <div class="why-title">24/7 Support</div>
+      <p class="why-desc">Dedicated, prompt, and hassle-free customer support around the clock. We work 24/7 to supply the best service possible — no delays, no runarounds.</p>
+      <span class="why-tag">Always Available</span>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-header">
+    <div class="section-label">// From The Field</div>
+    <h2 class="section-title">What Clients <span class="accent">Say</span></h2>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Their 4th axis capability was the only reason we could hit our production volumes without blowing the budget. The tolerances held at ±0.002″ across every batch. Genuinely impressive.</p>
+      <div class="testi-author">— M.R.</div>
+      <div class="testi-role">Mechanical Engineer, TX</div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">We needed a prototype turned around fast before a supplier meeting. They delivered in less time than we expected, and the design iteration process was smooth. We spotted a flaw early and saved real money.</p>
+      <div class="testi-author">— D.K.</div>
+      <div class="testi-role">Product Manager, Manufacturing</div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">The 3D printing quality rivals traditional machining for our composite parts. ±0.003″ across the whole run. We've moved three product lines to Mesquite Manufacturing and haven't looked back.</p>
+      <div class="testi-author">— A.T.</div>
+      <div class="testi-role">Production Manager, TX</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-header">
+    <div class="section-label">// Common Questions</div>
+    <h2 class="section-title">FAQ</h2>
+  </div>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <div class="faq-q">What CNC machining tolerances can you achieve?</div>
+      <p class="faq-a">We routinely hold <strong>±0.001″ to ±0.005″</strong> tolerances on both CNC machining and 3D printing. Tight-tolerance, high-precision work is our specialty.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What is fourth axis CNC machining?</div>
+      <p class="faq-a">Fourth axis CNC adds a rotational axis to standard 3-axis machining, enabling <strong>intricate geometries and undercuts at high volume</strong> — and at lower cost than competitors who rely on multiple setups.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What materials do you machine?</div>
+      <p class="faq-a">We work with <strong>metals, plastics, and composites</strong>. If you're unsure of the best material for your application, our team will advise you during the quoting process.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can you handle both prototypes and production runs?</div>
+      <p class="faq-a">Yes. We offer <strong>rapid prototype development</strong> for design validation as well as full production machining. Many clients start with a prototype and scale directly into production with us.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do you offer CNC milling?</div>
+      <p class="faq-a"><strong>Precision CNC milling is a core service.</strong> Our milling capabilities span 3-axis and 4th axis work, delivering complex geometries with tight tolerance control.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do you offer 3D printing?</div>
+      <p class="faq-a">Yes — <strong>additive manufacturing to ±0.001″–0.005″ tolerances</strong> in traditional plastics, innovative composites, and metals. 3D printing is ideal for complex parts, fast prototypes, and low-volume runs.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How do I get a quote?</div>
+      <p class="faq-a">Fill out the RFQ form on this page with your project details. <strong>We respond within 24 hours, 7 days a week.</strong> No obligation, completely free.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How fast can you turn around a project?</div>
+      <p class="faq-a">We're <strong>available 24/7</strong> and move fast. Lead time depends on part complexity, material, and volume. Contact us through the RFQ form for a specific timeline on your project.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FULL RFQ FORM -->
+<section id="rfq">
+  <div class="section-header">
+    <div class="section-label">// Zero Obligation</div>
+    <h2 class="section-title">Submit Your <span class="accent">RFQ</span></h2>
+  </div>
+  <div class="rfq-wrapper">
+    <div class="rfq-sidebar">
+      <div class="rfq-sidebar-title">Why Submit <span class="accent">Now?</span></div>
+      <ul class="rfq-sidebar-list">
+        <li>Free, no-obligation quote</li>
+        <li>Response within 24 hours</li>
+        <li>Expert team reviews every RFQ</li>
+        <li>4th axis CNC — lower cost at volume</li>
+        <li>Metals, plastics &amp; composites</li>
+        <li>±0.001″ precision guaranteed</li>
+        <li>Prototype → Production pipeline</li>
+        <li>24/7 dedicated support</li>
+      </ul>
+      <div class="rfq-sidebar-guarantee">
+        <p>✓ We respond within 24 hours<br/>✓ Available 24/7<br/>✓ Free quote, no obligation<br/>✓ Tailored to your requirements</p>
+      </div>
+    </div>
+    <div class="rfq-form-area">
+      <form class="rfq-form-grid" onsubmit="return false;">
+        <div class="rfq-field">
+          <label>First Name *</label>
+          <input type="text" placeholder="John" required />
+        </div>
+        <div class="rfq-field">
+          <label>Last Name *</label>
+          <input type="text" placeholder="Smith" required />
+        </div>
+        <div class="rfq-field">
+          <label>Company Name</label>
+          <input type="text" placeholder="Acme Corp" />
+        </div>
+        <div class="rfq-field">
+          <label>Email Address *</label>
+          <input type="email" placeholder="john@company.com" required />
+        </div>
+        <div class="rfq-field">
+          <label>Phone (Optional)</label>
+          <input type="tel" placeholder="+1 (555) 000-0000" />
+        </div>
+        <div class="rfq-field">
+          <label>Service Needed</label>
+          <select>
+            <option value="">Select a service...</option>
+            <option>Precision Machining / CNC Milling</option>
+            <option>Prototype Development</option>
+            <option>Custom Assembly</option>
+            <option>3D Printing</option>
+            <option>Multiple Services</option>
+            <option>Not Sure Yet</option>
+          </select>
+        </div>
+        <div class="rfq-field">
+          <label>Material</label>
+          <select>
+            <option value="">Select material...</option>
+            <option>Metal</option>
+            <option>Plastic</option>
+            <option>Composite</option>
+            <option>Multiple / Not Sure</option>
+          </select>
+        </div>
+        <div class="rfq-field full">
+          <label>Project Description *</label>
+          <textarea placeholder="Describe your part, quantity, tolerance requirements, material, and timeline..." required></textarea>
+        </div>
+        <div class="rfq-field full">
+          <label>📎 Attach Drawing or CAD File (Optional)</label>
+          <input type="file" accept=".pdf,.dwg,.dxf,.step,.stp,.stl,.iges,.igs" />
+        </div>
+        <div style="grid-column:1/-1;">
+          <button type="submit" class="rfq-submit">Submit My RFQ →</button>
+          <p class="rfq-under-btn"><span>✓ We respond within 24 hours</span> &nbsp; <span>✓ Available 24/7</span> &nbsp; <span>✓ Free quote, no obligation</span></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <div class="footer-logo">MESQUITE<span>.</span></div>
+      <p class="footer-about">
+        Mesquite Manufacturing is an innovative CNC machining company delivering precision manufacturing solutions tailored to your needs. With fourth axis CNC technology, ±0.001″ tolerances, and 24/7 availability, we're the #1 CNC machining service in the United States.
+      </p>
+      <div class="footer-cta-box">
+        <div class="footer-cta-title">Start Your RFQ</div>
+        <div class="footer-cta-sub">Free · 24-hour response · No obligation</div>
+        <a href="#rfq" class="btn-primary" style="font-size:0.8rem;">Get My Free Quote →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">// Services</div>
+      <ul class="footer-links">
+        <li><a href="#services">Precision CNC Machining</a></li>
+        <li><a href="#services">CNC Milling</a></li>
+        <li><a href="#services">Prototype Development</a></li>
+        <li><a href="#services">Custom Assembly</a></li>
+        <li><a href="#services">3D Printing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">// Company</div>
+      <ul class="footer-links">
+        <li><a href="#why">Why Choose Us</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#rfq">Get a Quote</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2026 Mesquite Manufacturing. All rights reserved. | Mesquite, TX</div>
+    <div class="footer-copy">Precision CNC Machining Solutions Tailored to Your Needs</div>
+  </div>
+</footer>
+
+</body>
+</html>
